@@ -40,39 +40,39 @@
 <body class="lato-font">
 
     <header class="mb-2 lg:mb-44 ">
-      <!-- nav part -->
-        <nav class="max-w-sm md:max-w-screen-md lg:max-w-screen-xl    mx-auto hidden">
-            <div class="navbar bg-white md:bg-[#F85559]  md:py-8 -mr-20  md:mr-1  -mx-10 lg:mx-5 -px-2 md:px-16 my-5 md:my-7 rounded-full flex flex-row-reverse md:flex-row">
-                <div class=" navbar-start hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 text-lg font-medium text-[#FFF]">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-center dropdown ">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 md:h-8 w-6 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-center ">
-                  <img src="./images/logo.png" alt="">
-                  <a class="btn btn-ghost normal-case text-3xl md:text-4xl font-bold text-black md:text-[#FFF]">Fruit Burst</a>
-                </div>
-               
-                <div class="navbar-en hidden md:inline-block lg:inline-block ">
-                  <a class="btn bg-white md:w-60 lg:w-96 text-left flax justify-between items-center rounded-full px-8 py-3"><span class="text-base font-normal text-[#12121266] ">Search here</span> <span> <i class="fa-solid fa-magnifying-glass"></i></span> </a>
-                </div>
-              </div>
+        <!-- this is header nav part -->
+        <nav class="max-w-3xl md:max-w-screen-md lg:max-w-screen-xl   mx-10 md:mx-auto mr-30 ">
+             <div class="navbar bg-white md:bg-[#F85559]   py-5 lg:py-8 px-8 lg:px-16 my-3 md:my-6 rounded-full flex flex-row-reverse md:flex-row  ">
+            <div class=" navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg font-medium text-[#FFF] ">
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="navbar-center dropdown ">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 md:h-8 w-6 md:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28 ">
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="navbar-center ">
+              <img src="./images/logo.png" alt="">
+              <a class="btn btn-ghost normal-case text-3xl md:text-4xl font-bold text-black md:text-[#FFF]">Fruit Burst</a>
+            </div>
+           
+            <div class=" hidden md:inline-block lg:inline-block w-auto ">
+              <a class="btn bg-white w-10 md:w-80 lg:w-96 text-left flax justify-between items-center rounded-full px-8 py-3.5"><span class="text-sm font-normal text-[#12121266] ">Search here</span> <span> <i class="fa-solid fa-magnifying-glass"></i></span> </a>
+            </div>
+          </div>
         </nav>
-        <!-- banner part -->
+        <!--this is header banner part -->
         <section class="mx-3 md:20 ">
           <div class=" max-w-screen-sm md:max-w-screen-xl mx-auto relative">
             <div class="carousel w-full rounded-lg">
@@ -170,9 +170,8 @@
         </section>
     </header>
 
-
     <main class="max-w-screen-xl mx-auto ">
-        <!-- deal of the day section -->
+        <!-- deal of the day main section -->
         <section class="my-24">
             <div class="flex flex-col md:flex-row justify-between items-center gap-16 md:gap-40  mx-6">
                 
@@ -433,7 +432,7 @@
               <button class="btn  text-xl font-bold text-white bg-[#F85559] border-none hover:bg-[#F85559]">Shop All</button>
             </div>
         </section>
-        <!-- meet the team section -->
+        <!-- meet the team main section -->
         <section class="mx-5 " >
             <div class="hero  " style="background-image: url(./images/team.png);
                  background-size:cover; background-repeat: no-repeat;">
@@ -510,7 +509,7 @@
                 </div>
               </div>
         </section>
-        <!-- Why Choose Us section -->
+        <!-- Why Choose Us main section -->
         <section class="my-3 md:my-24 mx-5">
           <div class="max-w-screen-sm mx-auto text-center">
             <h2 class="text-5xl font-extrabold ">Why Choose Us</h2>
@@ -587,8 +586,8 @@
            
           </div>
         </section>
-
     </main>
+
     <!-- this is footer part -->
     <footer class="  footer footer-center  py-10 md:py-32 bg-[#121212] text-base-content rounded">
         <div class="flex items-center gap-10 ">
@@ -614,5 +613,6 @@
           </div>
         </div> 
       </footer>
+
 </body>
 </html>
